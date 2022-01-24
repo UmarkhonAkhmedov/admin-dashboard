@@ -6,6 +6,9 @@
   background-color: white;
   z-index: 999;
 }
+.logo__link {
+  text-decoration: none;
+}
 .topbarWrapper{
   display: flex;
   align-items: center;
