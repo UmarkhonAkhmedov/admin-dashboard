@@ -10,6 +10,7 @@ import {
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
 import NewUser from "./pages/newUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
           <Route path="/users" exact element={<UserList/>}/>
           <Route path="/user/:userId" exact element={<User/>}/>
           <Route path="/newUser" exact element={<NewUser/>}/>
+          <Route path="/products" exact element={<ProductList/>}/>
+          <Route path="/products/:productsId" exact element={<NewUser/>}/>
+          <Route path="/newproduct" exact element={<NewUser/>}/>
         </Routes>
       </div>
     </Router>
